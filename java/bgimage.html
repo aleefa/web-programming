@@ -1,0 +1,17 @@
+    <html>
+    <head>
+      <script>
+        function changeImage() {
+          document.getElementById("image").src = "bg1.jpeg";
+          document.getElementById("text").innerHTML = "one";
+        }
+      </script>
+    </head>
+    <body>
+      <div onmouseover="changeImage()">
+        <img id="image" src="bg2.jpeg">
+        <p id="text">two</p>
+      </div>
+    </body>
+    </html>
+
